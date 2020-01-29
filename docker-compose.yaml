@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sgp4_php:
+    build: docker/php
+    container_name: sgp4_php
+    restart: always
+    tty: true
+    volumes:
+      - .:/srv/sgp4:delegated

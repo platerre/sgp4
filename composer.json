@@ -1,0 +1,13 @@
+{
+    "name": "platerre/sgp4",
+    "description": "SGP4 implementation in php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandre Bourgeat",
+            "email": "bourgeataleks@protonmail.com"
+        }
+    ],
+    "require": {}
+}
