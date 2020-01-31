@@ -1,0 +1,25 @@
+{
+    "name": "platerre/sgp4",
+    "description": "SGP4 implementation in php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandre Bourgeat",
+            "email": "bourgeataleks@protonmail.com"
+        }
+    ],
+    "require": {
+        "ext-bcmath": "*",
+        "ext-decimal": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
