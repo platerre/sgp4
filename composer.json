@@ -9,5 +9,11 @@
             "email": "bourgeataleks@protonmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "ext-bcmath": "*",
+        "ext-decimal": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
 }
